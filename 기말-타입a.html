@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>11주차</title>
+    
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        .carousel-item{
+            height: 520px;
+            background-color: gray;
+            text-align: left;
+        }
+
+        .carousel-item.item1{
+            background-image: url('img/akdydl.jpg');
+            background-size: cover;
+            background-position: center center;  
+        }
+
+        .carousel-item .intro h2{
+            font-size: 52px;
+            color: #2b2b2b;
+            font-weight:700;
+        }
+
+        .carousel-item .intro h3{
+            font-size: 21px;
+            color: #474747;
+            margin-top: 24px;
+            font-weight:300;
+        }
+
+        .carousel-item .intro p{
+            font-size: 16px;
+            color: #474747;
+            margin-top: 20px;
+            margin-bottom: 48px;
+            font-weight:300;
+            line-height: 30px;
+        }
+
+        .carousel-item .intro{
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .carousel-item .helper{
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        .helper{
+            margin-left: 320px;
+        }
+
+        #columns{
+        column-width:250px;
+        column-gap: 20px;
+        margin-top: 60px;
+        padding-left: 200px;
+        padding-right: 200px;
+      }
+      #columns figure{
+        display: inline-block;
+        border:0px solid rgba(0,0,0,0);
+        margin-bottom: 20px;
+        padding:0px;
+
+      }
+      #columns figure img{
+        width:100%;
+        border-radius: 10px
+      }
+
+      .a img {
+        transition: all 0.2s linear;
+      }
+      .a:hover img {
+        transform: scale(1.4);
+      }
+      .a {
+        margin: 0px auto;
+        overflow: hidden;
+        border-radius: 10px
+      }
+
+      .footer{
+           width: 100%;
+          height: 100px;
+               font-family: 'Noto Sans KR', sans-serif;
+                    width: 100%;
+              float : left;
+          margin-top: 30px;
+       }
+      .kk{
+           font-family: 'Noto Sans KR', sans-serif;
+           width: 100%;
+          padding-left: 300px;
+
+          font-size: 10px;
+          margin-top: 25px;
+          display: flex; 
+          
+      }
+      .xx{
+        margin-left: 12%;
+      }
+      .nn{
+         margin-left: 12%;
+       }
+
+      .mm{
+         margin-left: 12%;
+      }
+
+    .navbar-brand{
+        font-family: 'Orbitron', sans-serif;
+        font-weight:900;
+        margin-left: 200px;
+    }
+    #navbarNav {
+        margin-right: 180px;
+
+    }
+    .nav-link{
+        margin-left: 10px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight:200;
+    }
+
+       .carousel-item .intro a{
+            font-size: 16px;
+            color: white;
+            background-color: #273F82;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+
+        .carousel-item .intro a:hover{
+            background-color: white;
+            color: #a09782;
+            font-weight: bold;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #213768;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" >COMMISSON</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+          </ul>
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="기말-공지사항.html">MUST-READ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="기말-타입a.html">TYPE A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="기말-타입b.html">TYPE B</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="기말-타입c.html">TYPE C</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+      <div class="carousel-inner">
+        <div class="carousel-item item1 active">
+            <div class="helper"></div><div class="intro">
+                <h2>A타입</h2>
+                <h3>풀채색 타입입니다!</h3>
+                <p>1인 기준<br>두상:15000원<br>흉상:25000원<br>반신:35000원<br>전신:45000원</p>
+                <a href="기말-타입a.html">구매하기</a>
+            </div>
+        </div>
+      </div>
+
+    <div id="columns">
+      <figure class="a">
+        <a href="img/오레이1.jpg" target=”_black”>
+        <img src="img/오레이1.jpg">
+        </a>
+      </figure>
+ 
+      <figure class="a">
+        <a href="img/뱀파이어12.jpg" target=”_black”>
+        <img src="img/뱀파이어12.jpg">
+        </a>
+      </figure>
+ 
+      <figure class="a">
+        <a href="img/사련꽃있.jpg" target=”_black”>
+        <img src="img/사련꽃있.jpg">
+        </a>
+      </figure>
+ 
+      <figure class="a">
+        <a href="img/나츠메.jpg" target=”_black”>
+        <img src="img/나츠메.jpg">
+        </a>
+      </figure>
+ 
+      <figure class="a">
+        <a href="img/와타루2.jpg" target=”_black”>
+        <img src="img/와타루2.jpg">
+        </a>
+      </figure>
+ 
+      <figure class="a">
+        <a href="img/akdydls.jpg" target=”_black”>
+        <img src="img/akdydls.jpg">
+        </a>
+      </figure>
+ 
+      <figure class="a">
+        <a href="img/코하쿠아이라1.jpg" target=”_black”>
+        <img src="img/코하쿠아이라1.jpg">
+        </a>
+      </figure>    
+ 
+      <figure class="a">
+        <a href="img/레오1.jpg" target=”_black”>
+        <img src="img/레오1.jpg">
+        </a>
+      </figure>
+ 
+      <figure class="a">
+        <a href="img/flqkdl1.jpg" target=”_black”>
+        <img src="img/flqkdl1.jpg">
+        </a>
+      </figure>  
+
+      <figure class="a">
+        <a href="img/스파클링12.jpg" target=”_black”>
+        <img src="img/스파클링12.jpg">
+        </a>
+      </figure> 
+
+      <figure class="a">
+        <a href="img/레이.jpg" target=”_black”>
+        <img src="img/레이.jpg">
+        </a>
+      </figure> 
+
+      <figure class="a">
+        <a href="img/괴도맛8.jpg" target=”_black”>
+        <img src="img/괴도맛8.jpg">
+        </a>
+      </figure> 
+
+      <figure class="a">
+        <a href="img/dxf3.jpg" target=”_black”>
+        <img src="img/dxf3.jpg">
+        </a>
+      </figure> 
+
+      <figure class="a">
+        <a href="img/아잉.jpg" target=”_black”>
+        <img src="img/아잉.jpg">
+        </a>
+      </figure> 
+
+    </div>
+
+    <div class="footer" style="background-color: #cacddd">
+              <div class="kk">
+            <div class="ll">
+          <p>A D D R E S S</p> 
+          <p>237, Sangui Daehak-ro, Siheung-si, Gyeonggi-do, Republic of Korea </p>
+              </div>
+              <div class="xx">
+          <p>E - M A I L</p>  
+          <p>wldms010131@naver.com</p> 
+              </div>
+            <div class="nn">
+          <p> TEL </p>
+          <p> 010 1234 5678</p> 
+    </div>
+            <div class="mm">
+          <p> FAX</p>  <p>123 4567 8910</p>
+              </div>
+            </div>
+     </div>
+      
+            <div class="clearfix"></div>    
+        </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

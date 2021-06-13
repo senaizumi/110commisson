@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>11주차</title>
+    
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            font-family: 'Noto Sans KR', sans-serif;
+        }
+        .carousel-item{
+            height: 520px;
+            background-color: gray;
+            text-align: left;
+        }
+
+        .carousel-item.item1{
+            background-image: url('img/사련꽃있1.jpg');
+            background-size: cover;
+            background-position: center center;  
+        }
+
+        .carousel-item.item2{
+            background-image: url('img/akdydl.jpg');
+            background-size: cover;
+            background-position: center top;
+        }
+
+        .carousel-item.item3{
+            background-image: url('img/마요시노오1zzz.jpg');
+            background-size: cover;
+            background-position: left center;  
+        }
+        .carousel-item.item4{
+            background-image: url('img/히도니.jpg');
+            background-size: cover;
+            background-position: left center;  
+        }
+
+
+        .carousel-item .intro h1{
+            font-size: 52px;
+            color: #ffffff;
+            font-weight:700;
+        }
+        .carousel-item .intro h2{
+            font-size: 52px;
+            color: #2b2b2b;
+            font-weight:700;
+        }
+
+        .carousel-item .intro h3{
+            font-size: 21px;
+            color: #474747;
+            margin-top: 24px;
+            margin-bottom: 48px;
+            font-weight:300;
+        }
+
+        .carousel-item .intro a{
+            font-size: 16px;
+            color: white;
+            background-color: #273F82;
+            padding: 10px 30px;
+            text-decoration: none;
+        }
+
+        .carousel-item .intro a:hover{
+            background-color: white;
+            color: #a09782;
+            font-weight: bold;
+        }
+
+        .carousel-item .intro{
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .carousel-item .helper{
+            display: inline-block;
+            height: 100%;
+            vertical-align: middle;
+        }
+
+        .course{
+            display: block;
+            box-shadow: 0 2px 4px 0 rgba(0,0,0,0.15);
+            text-decoration: none;
+            margin-bottom: 20px;
+            margin-top: 40px;
+        }
+        .course .course-image{
+            display: block;
+        }
+
+        .course .info{
+            padding: 20px;
+        }
+
+        .course .info h4{
+            font-size: 18px;
+            color: #4A4A4A;
+        }
+
+        .course .info .name{
+            font-size: 13px;
+            color: #4A4A4A ;
+        }
+        .alert{
+            margin-top: 50px;
+            margin-bottom: 16px;
+        }
+
+        .container{
+            margin-bottom: 50px;
+        }
+        .helper{
+            margin-left: 320px;
+        }
+        .info p{
+             color: #757575;
+        }
+
+        .navbar-brand{
+        font-family: 'Orbitron', sans-serif;
+        font-weight:900;
+        margin-left: 200px;
+    }
+    #navbarNav {
+        margin-right: 180px;
+
+    }
+    .nav-link{
+        margin-left: 10px;
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight:200;
+    }
+
+   .footer{
+           width: 100%;
+          height: 100px;
+               font-family: 'Noto Sans KR', sans-serif;
+                    width: 100%;
+              float : left;
+          margin-top: 30px;
+       }
+      .kk{
+           font-family: 'Noto Sans KR', sans-serif;
+           width: 100%;
+          padding-left: 300px;
+
+          font-size: 10px;
+          margin-top: 25px;
+          display: flex; 
+          
+      }
+      .xx{
+        margin-left: 12%;
+      }
+      .nn{
+         margin-left: 12%;
+       }
+
+      .mm{
+         margin-left: 12%;
+      }
+      
+.course:hover { opacity:0.6; color:#000000; }
+
+.container{
+    margin-top: 40px;
+}
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #213768;">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html" >COMMISSON</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto">
+          </ul>
+          <ul class="navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="기말-공지사항.html">MUST-READ</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="기말-타입a.html">TYPE A</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="기말-타입b.html">TYPE B</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="기말-타입c.html">TYPE C</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item item1 active">
+            <div class="helper"></div><div class="intro">
+                <h1>ILLUSTRATION<br>COMMISSION</h1>
+            </div>
+        </div>
+        <div class="carousel-item item2">
+            <div class="helper"></div><div class="intro">
+                <h2>TYPE A</h2>
+                <h3>풀채색 타입</h3>
+                <a href="기말-타입a.html">바로가기</a>
+            </div>
+        </div>
+        <div class="carousel-item item3">
+            <div class="helper"></div><div class="intro">
+                <h2>TYPE B</h2>
+                <h3>심플 채색 타입</h3>
+                <a href="기말-타입b.html">바로가기</a>
+            </div>
+        </div>
+        <div class="carousel-item item4">
+            <div class="helper"></div><div class="intro">
+                <h2>TYPE C</h2>
+                <h3>간단한 초상화 타입</h3>
+                <a href="기말-타입c.html">바로가기</a>
+            </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="container">
+        
+        <a href="기말-공지사항.html" class="course1">
+            <img class="course-image" src="img/코하아이.jpg" alt="" width="100%">
+                    <div class="info">
+                    </div>
+        </a>
+
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                <a href="기말-타입a.html" class="course">
+                    <img class="course-image" src="img/dxf.jpg" alt="" width="100%">
+                    <div class="info">
+                        <h4>TYPE A</h4>
+                        <P>풀채색 타입입니다!</P>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                <a href="기말-타입b.html" class="course">
+                    <img class="course-image" src="img/레오이즈.jpg" alt="" width="100%">
+                    <div class="info">
+                        <h4>TYPE B</h4>
+                        <P>심플한 채색 타입입니다! 흑백 또는 단색으로 진행됩니다!</P>
+                    </div>
+                </a>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-sm-12">
+                <a href="기말-타입c.html" class="course">
+                    <img class="course-image" src="img/촉.jpg" alt="" width="100%">
+                    <div class="info">
+                        <h4>TYPE C</h4>
+                        <P>간단한 초상화 타입입니다! </P>
+                    </div>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="footer" style="background-color: #cacddd">
+              <div class="kk">
+            <div class="ll">
+          <p>A D D R E S S</p> 
+          <p>237, Sangui Daehak-ro, Siheung-si, Gyeonggi-do, Republic of Korea </p>
+              </div>
+              <div class="xx">
+          <p>E - M A I L</p>  
+          <p>wldms010131@naver.com</p> 
+              </div>
+            <div class="nn">
+          <p> TEL </p>
+          <p> 010 1234 5678</p> 
+    </div>
+            <div class="mm">
+          <p> FAX</p>  <p>123 4567 8910</p>
+              </div>
+            </div>
+     </div>
+      
+            <div class="clearfix"></div>    
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
